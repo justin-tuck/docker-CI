@@ -9,3 +9,12 @@ All of the files included in the .zip file (available to Plus subscribers) shoul
 Initializing a Git repo and making a remote of it on GitHub are explained in Module 2 of the course.
 
 The viewer should have Git installed and have a GitHub account.
+
+## Docker Hub
+Link Git Hub account and create and un check automatic build.  Create a trigger and user that url in Circle CI
+
+## Circle CI
+Link your Git Hub account and select your project you'll need to create a circle.yml with your project specifications and location of tests and adding the env variable to commands
+
+### TRIGGER VALUE in circle CI
+curl -H "Content-Type: application/json" --data '{"build":true}' -X POST <TRIGGER_URL>
