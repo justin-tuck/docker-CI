@@ -17,4 +17,10 @@ Link Git Hub account and create and un check automatic build.  Create a trigger 
 Link your Git Hub account and select your project you'll need to create a circle.yml with your project specifications and location of tests and adding the env variable to commands
 
 ### TRIGGER VALUE in circle CI
-curl -H "Content-Type: application/json" --data '{"build":true}' -X POST <TRIGGER_URL>
+curl -H "Content-Type:application/json" --data '{"build":true}' -X POST <TRIGGER_URL>
+
+Need o make sure that is exact or it will fail
+
+## Docker Cloud
+
+## Amazon Web Services
